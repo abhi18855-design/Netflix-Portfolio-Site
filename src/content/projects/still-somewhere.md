@@ -1,23 +1,35 @@
 ---
-title: Still, somewhere
-slug: still-somewhere
-description: Light falls. A place becomes a feeling. An exploration in frames.
-category: photography
-year: 2025
-cover: /media/images/projects/still-somewhere.svg
-coverAlt: Warm geometric archway and diagonal afternoon light
-featured: true
-published: true
-demo: true
-order: 2
-role: Sample photography project
-gallery:
-  - image: /media/images/projects/still-somewhere.svg
-    alt: Geometric archway in warm earthy colors
-    caption: Placeholder frame 01 — replace with your photograph.
-  - image: /media/images/projects/after-the-rain.svg
-    alt: Stylized mountain landscape above a lake
-    caption: Placeholder frame 02 — galleries preserve original proportions.
+{
+  "title": "Still, somewhere",
+  "slug": "still-somewhere",
+  "description": "Light falls. A place becomes a feeling. An exploration in frames.",
+  "category": "photography",
+  "year": 2025,
+  "cover": "/media/images/projects/still-somewhere.svg",
+  "coverAlt": "Warm geometric archway and diagonal afternoon light",
+  "featured": true,
+  "published": true,
+  "demo": true,
+  "order": 2,
+  "role": "Sample photography project",
+  "gallery": [
+    {
+      "image": "/media/images/projects/still-somewhere.svg",
+      "alt": "Geometric archway in warm earthy colors",
+      "caption": "Placeholder frame 01 — replace with your photograph."
+    },
+    {
+      "image": "/media/images/projects/after-the-rain.svg",
+      "alt": "Stylized mountain landscape above a lake",
+      "caption": "Placeholder frame 02 — galleries preserve original proportions."
+    }
+  ],
+  "audio": [],
+  "credits": [],
+  "links": [],
+  "hero": "",
+  "youtube": ""
+}
 ---
 ## A place to pause
 
