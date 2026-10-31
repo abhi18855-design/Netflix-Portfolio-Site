@@ -8,7 +8,7 @@
   "cover": "/media/images/projects/still-somewhere.svg",
   "coverAlt": "Warm geometric archway and diagonal afternoon light",
   "featured": true,
-  "published": true,
+  "published": false,
   "demo": true,
   "order": 2,
   "role": "Sample photography project",
@@ -28,7 +28,10 @@
   "credits": [],
   "links": [],
   "hero": "",
-  "youtube": ""
+  "youtube": "",
+  "tags": [],
+  "video": "",
+  "deleted": true
 }
 ---
 ## A place to pause
@@ -36,3 +39,4 @@
 This **demonstration project** shows how an image-led story can live in the archive. These are original vector placeholders, not actual photographs.
 
 Replace them with a photographic series, sketches, or a visual experiment. Every image can have its own caption and accessible description.
+

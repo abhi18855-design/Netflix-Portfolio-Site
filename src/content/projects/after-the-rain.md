@@ -8,7 +8,7 @@
   "cover": "/media/images/projects/after-the-rain.svg",
   "coverAlt": "Abstract mountain silhouettes reflected in a quiet lake",
   "featured": true,
-  "published": true,
+  "published": false,
   "demo": true,
   "order": 1,
   "role": "Sample film project",
@@ -33,7 +33,10 @@
     }
   ],
   "audio": [],
-  "hero": ""
+  "hero": "",
+  "tags": [],
+  "video": "",
+  "deleted": true
 }
 ---
 ## Finding the story in the stillness
@@ -45,3 +48,4 @@ Use this space for your creative concept, the story behind it, and the choices t
 ## The process
 
 Tell the story in your own way. Add as much or as little as you need: a location, an unexpected detail, or a note on your role. Upload your frames below and let the work do the rest.
+

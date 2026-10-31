@@ -1,0 +1,11 @@
+These unused files are omitted from this ZIP. Delete them manually from GitHub if you want to reclaim space; uploading a ZIP does not delete old files.
+public/media/projects/rrrr-ragupati-raghav-raja-ram/ep65p1-shot-02-1-b80292ce.jpg
+public/media/projects/rrrr-ragupati-raghav-raja-ram/ep65p1-shot-04-a04d3ef7.jpg
+public/media/projects/rrrr-ragupati-raghav-raja-ram/ep65p1-shot-15-adc601c3.jpg
+public/media/projects/rrrr-ragupati-raghav-raja-ram/hanuman-song-shot-15-approved-b14d2dfb.jpg
+public/media/projects/rrrr-ragupati-raghav-raja-ram/ep18-scene-1-shot-03-94e15f61.jpg
+public/media/projects/rrrr-ragupati-raghav-raja-ram/ep21-sc01-shot-04-6aa4ed80.jpg
+public/media/projects/rrrr-ragupati-raghav-raja-ram/ep23-part2-shot-2-aca3a626.jpg
+public/media/projects/rrrr-ragupati-raghav-raja-ram/ep23-part2-shot-7-2-1049a357.jpg
+public/media/projects/rrrr-ragupati-raghav-raja-ram/ep31-sc4-shot-07-approved-fd0ef829.jpg
+public/media/projects/rrrr-ragupati-raghav-raja-ram/ramayana-ep40-shot-21-approved-a211e9f1.jpg

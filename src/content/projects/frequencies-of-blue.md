@@ -8,7 +8,7 @@
   "cover": "/media/images/projects/frequencies-of-blue.svg",
   "coverAlt": "Fine sound-wave lines against a deep blue background",
   "featured": true,
-  "published": true,
+  "published": false,
   "demo": true,
   "order": 3,
   "role": "Sample sound project",
@@ -24,7 +24,10 @@
   "credits": [],
   "links": [],
   "hero": "",
-  "youtube": ""
+  "youtube": "",
+  "tags": [],
+  "video": "",
+  "deleted": true
 }
 ---
 ## Listen closely
@@ -32,3 +35,4 @@
 This **demonstration project** includes a short, original synthesized tone to test the audio player. It is a playback sample, not a finished composition.
 
 Add recordings, compositions, or sound experiments here. Each track can include its own description, artwork, and an optional external listening link.
+
