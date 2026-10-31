@@ -4,7 +4,7 @@ import {parse} from 'yaml';
 const root=resolve('dist');
 const errors=[];
 function files(dir){return readdirSync(dir,{withFileTypes:true}).flatMap(e=>e.isDirectory()?files(join(dir,e.name)):[join(dir,e.name)]);}
-const htmlFiles=files(root).filter(f=>f.endsWith('.html'));
+const htmlFiles=files(root).filter(f=>f.endsWith('.html') && f!==join(root,'editor.html')); // Editor has its own relative assets and browser-only controls.
 const home=readFileSync(join(root,'index.html'),'utf8');
 const canonical=home.match(/<link[^>]+rel="canonical"[^>]+href="([^"]+)"/)?.[1];
 if(!canonical)throw new Error('Missing homepage canonical');
@@ -23,11 +23,11 @@ for(const file of htmlFiles){
   if(!html.includes('<meta name="description"'))errors.push(`${file}: missing description`);
   if(/<iframe/.test(html))errors.push(`${file}: eager iframe found`);
 }
-for(const file of readdirSync('src/content/projects').filter(x=>x.endsWith('.md'))){
-  const source=readFileSync(join('src/content/projects',file),'utf8');
+for(const file of files('src/content/projects').filter(x=>x.endsWith('.md'))){
+  const source=readFileSync(file,'utf8');
   const data=parse(source.split('---')[1]);
   const generated=existsSync(join(root,'projects',data.slug,'index.html'));
-  if(Boolean(data.published)!==generated)errors.push(`${file}: published/draft route mismatch`);
+  if(Boolean(data.published&&!data.deleted)!==generated)errors.push(`${file}: published/draft route mismatch`);
 }
 const cms=parse(readFileSync('.pages.yml','utf8'));
 for(const section of cms.content){if(!existsSync(section.path))errors.push(`CMS path missing: ${section.path}`);}

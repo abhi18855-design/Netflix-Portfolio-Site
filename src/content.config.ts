@@ -12,7 +12,7 @@ const projects = defineCollection({
     title:z.string().min(1), slug, description:z.string().min(1).max(320), category:slug,
     year:z.number().int().min(1900).max(2200), cover:link, coverAlt:text, hero:link,
     featured:z.boolean().default(false), published:z.boolean().default(false), demo:z.boolean().default(false),
-    order:z.preprocess(v => v ?? 100, z.number()), youtube:text, role:text,
+    order:z.preprocess(v => v ?? 100, z.number()), youtube:text, video:link, tags:list(z.string()), deleted:z.boolean().default(false), role:text,
     gallery:list(z.object({image:link, alt:text, caption:text})),
     audio:list(z.object({title:z.string().min(1), file:link, description:text, cover:link, external:link})),
     credits:list(z.object({label:z.string().min(1), value:z.string().min(1)})),
