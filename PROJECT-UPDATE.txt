@@ -1,0 +1,1 @@
+Upload the included src and public folders into your repository root. Commit and wait for Actions. Astro discovers this project automatically: no listing index is required. Existing projects are untouched. Install the full editor upgrade once before using partial updates. Deleted projects are unpublished records.
