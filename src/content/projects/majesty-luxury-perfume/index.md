@@ -1,10 +1,10 @@
 ---
 {
   "selectedWork": true,
-  "selectedWorkOrder": 6,
+  "selectedWorkOrder": 4,
   "title": "Majesty Luxury Perfume | AI Brand Ad",
   "slug": "majesty-luxury-perfume",
-  "category": "design",
+  "category": "",
   "description": "A cinematic AI-crafted luxury perfume advertisement for Majesty, where timeless elegance meets extraordinary craftsmanship. A statement of sophistication, opulence, and royal allure, captured through breathtaking visuals.",
   "year": 2026,
   "gallery": [],

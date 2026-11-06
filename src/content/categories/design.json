@@ -2,5 +2,6 @@
   "slug": "design",
   "name": "Design & Experiments",
   "description": "",
-  "order": 4
+  "order": 10,
+  "deleted": true
 }

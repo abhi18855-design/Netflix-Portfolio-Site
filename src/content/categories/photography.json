@@ -2,5 +2,6 @@
   "slug": "photography",
   "name": "Photography & Frames",
   "description": "",
-  "order": 2
+  "order": 2,
+  "deleted": true
 }

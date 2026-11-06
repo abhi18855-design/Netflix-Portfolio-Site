@@ -4,7 +4,7 @@
   "selectedWorkOrder": 7,
   "title": "Tissot | Time Refined",
   "slug": "tissot-time-refined",
-  "category": "design",
+  "category": "",
   "description": "An AI-powered luxury brand film inspired by Tissot, capturing the essence of elite living, timeless sophistication, and precision through cinematic AI-generated visuals and premium storytelling.",
   "year": 2026,
   "gallery": [

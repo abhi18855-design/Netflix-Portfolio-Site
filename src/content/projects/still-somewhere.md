@@ -5,7 +5,7 @@
   "title": "Still, somewhere",
   "slug": "still-somewhere",
   "description": "Light falls. A place becomes a feeling. An exploration in frames.",
-  "category": "photography",
+  "category": "",
   "year": 2025,
   "cover": "/media/images/projects/still-somewhere.svg",
   "coverAlt": "Warm geometric archway and diagonal afternoon light",

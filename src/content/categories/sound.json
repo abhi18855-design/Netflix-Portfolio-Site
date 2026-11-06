@@ -2,5 +2,6 @@
   "slug": "sound",
   "name": "Music & Sound",
   "description": "",
-  "order": 3
+  "order": 3,
+  "deleted": true
 }

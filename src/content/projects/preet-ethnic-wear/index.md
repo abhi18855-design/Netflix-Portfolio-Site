@@ -4,7 +4,7 @@
   "selectedWorkOrder": 8,
   "title": "Preet Ethnic Wear | AI Brand Film",
   "slug": "preet-ethnic-wear",
-  "category": "design",
+  "category": "",
   "description": "An AI-powered fashion film celebrating India's rich textile heritage through the timeless elegance of Banarasi and Kanjivaram sarees. A festive visual journey where diverse traditions come together to redefine ethnic fashion.",
   "year": 2026,
   "gallery": [

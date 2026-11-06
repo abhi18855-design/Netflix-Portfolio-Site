@@ -1,10 +1,10 @@
 ---
 {
   "selectedWork": true,
-  "selectedWorkOrder": 3,
+  "selectedWorkOrder": 2,
   "title": "Preet Jeweller | AI Jewellery Brand Film",
   "slug": "preet-jewellers",
-  "category": "design",
+  "category": "",
   "description": "AI Imagined Ad Film of a Jewellery Brand",
   "year": 2026,
   "gallery": [

@@ -5,7 +5,7 @@
   "title": "Frequencies of blue",
   "slug": "frequencies-of-blue",
   "description": "A small collection of sounds for a world that rarely slows down.",
-  "category": "sound",
+  "category": "",
   "year": 2026,
   "cover": "/media/images/projects/frequencies-of-blue.svg",
   "coverAlt": "Fine sound-wave lines against a deep blue background",

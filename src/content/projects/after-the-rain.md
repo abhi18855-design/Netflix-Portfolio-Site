@@ -5,7 +5,7 @@
   "title": "After the rain",
   "slug": "after-the-rain",
   "description": "A quiet study of distance, light, and the moments in between.",
-  "category": "film",
+  "category": "",
   "year": 2026,
   "cover": "/media/images/projects/after-the-rain.svg",
   "coverAlt": "Abstract mountain silhouettes reflected in a quiet lake",
