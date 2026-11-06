@@ -1,5 +1,7 @@
 ---
 {
+  "selectedWork": true,
+  "selectedWorkOrder": 1,
   "title": "After the rain",
   "slug": "after-the-rain",
   "description": "A quiet study of distance, light, and the moments in between.",
@@ -48,4 +50,5 @@ Use this space for your creative concept, the story behind it, and the choices t
 ## The process
 
 Tell the story in your own way. Add as much or as little as you need: a location, an unexpected detail, or a note on your role. Upload your frames below and let the work do the rest.
+
 

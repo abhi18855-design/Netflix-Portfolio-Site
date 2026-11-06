@@ -1,5 +1,7 @@
 ---
 {
+  "selectedWork": true,
+  "selectedWorkOrder": 4,
   "title": "Still, somewhere",
   "slug": "still-somewhere",
   "description": "Light falls. A place becomes a feeling. An exploration in frames.",
@@ -39,4 +41,5 @@
 This **demonstration project** shows how an image-led story can live in the archive. These are original vector placeholders, not actual photographs.
 
 Replace them with a photographic series, sketches, or a visual experiment. Every image can have its own caption and accessible description.
+
 

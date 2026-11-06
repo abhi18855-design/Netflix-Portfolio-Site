@@ -1,5 +1,7 @@
 ---
 {
+  "selectedWork": true,
+  "selectedWorkOrder": 2,
   "title": "RRRR – India Today Group | AI Microdrama",
   "slug": "rrrr-ragupati-raghav-raja-ram",
   "category": "film",
@@ -85,3 +87,4 @@
 An AI-powered mythological microdrama series released by the India Today Group, bringing the epic Ramayana to life through advanced generative AI technology and cinematic storytelling. The production combines AI-generated visuals, detailed character designs, immersive environments, and high-end cinematic sequences to create a visually rich storytelling experience.
 
 My Role & Contributions: Contributed to AI creative production, including visual development, character and prop design, cinematic shot composition, prompt engineering, and AI-generated image and video sequences. Worked on translating creative concepts into visually compelling cinematic frames using generative AI workflows.
+

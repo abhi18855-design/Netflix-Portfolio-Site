@@ -1,5 +1,7 @@
 ---
 {
+  "selectedWork": false,
+  "selectedWorkOrder": 7,
   "title": "Tissot | Time Refined",
   "slug": "tissot-time-refined",
   "category": "design",
@@ -52,10 +54,11 @@
   "cover": "/media/projects/tissot-time-refined/thumbnail-9a10436e.webp",
   "coverAlt": "",
   "published": true,
-  "featured": true,
+  "featured": false,
   "demo": false,
   "deleted": false,
   "order": 3
 }
 ---
 An AI-powered luxury brand film inspired by Tissot, celebrating timeless elegance, precision, and sophistication. The film captures the essence of an elite lifestyle, portraying the Tissot timepiece as more than just a watch — a statement of refined taste, understated luxury, and individuality. Through cinematic AI-generated visuals, dramatic lighting, premium aesthetics, and intricate product detailing, the film brings the world of luxury watchmaking to life.
+

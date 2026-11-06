@@ -32,3 +32,14 @@ YouTube URLs use the existing click-to-play player. Direct HTTPS MP4/WebM URLs a
 Use Site Content's optional hero fields to override the featured project's headline/description. Blank fields keep the existing hero. Optional Services appear on About only when added. The public website's existing CSS, animations, routes, text and project content are preserved by this upgrade.
 
 The editor and its source snapshot are public, like the repository. Do not store private project drafts or credentials in a public repository. Visitors cannot publish changes without your GitHub access.
+
+
+## Selected Work and optional categories
+
+Published controls whether a project page exists. Show in Selected Work independently controls homepage inclusion. Use the arrows in Selected Work to set its persistent sequence; the existing Display order controls the archive and does not change the Main Highlight. New projects start uncategorised and excluded from Selected Work.
+
+Manage optional categories in Settings. Rename a category without changing its ID. Delete category clears its project assignments and preserves every project; a deleted category record is retained internally so upload-based updates can apply the deletion reliably. Existing categories are retained as editable entries, not enforced presets.
+
+Save Changes persists the draft in this browser. Currently published Selected Work shows the deployed source, separately from the saved draft. Reopening after deployment merges nonconflicting saved edits with new published content; conflicts download a backup and ask which version to retain.
+
+Install these fixes once using the complete website source. Thereafter Download Project Update includes all saved content records (including ordering and category changes) and pending uploads. Extract into the repository root, commit and wait for the existing GitHub Pages deployment. Saving alone does not publish. No publishing credentials or backend have been added.

@@ -1,5 +1,7 @@
 ---
 {
+  "selectedWork": true,
+  "selectedWorkOrder": 5,
   "title": "Frequencies of blue",
   "slug": "frequencies-of-blue",
   "description": "A small collection of sounds for a world that rarely slows down.",
@@ -35,4 +37,5 @@
 This **demonstration project** includes a short, original synthesized tone to test the audio player. It is a playback sample, not a finished composition.
 
 Add recordings, compositions, or sound experiments here. Each track can include its own description, artwork, and an optional external listening link.
+
 

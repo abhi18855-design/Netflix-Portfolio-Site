@@ -1,5 +1,7 @@
 ---
 {
+  "selectedWork": true,
+  "selectedWorkOrder": 3,
   "title": "Preet Jeweller | AI Jewellery Brand Film",
   "slug": "preet-jewellers",
   "category": "design",
@@ -60,3 +62,4 @@
 An AI-powered jewellery brand film built around the timeless idea that love is more than a feeling — it is a legacy passed down through generations. The film captures the emotional journey of heirloom jewellery, handed down from one generation to the next, carrying stories, memories, and bonds that transcend time. Through cinematic AI-generated visuals, elegant storytelling, and rich visual detailing, the film celebrates the enduring connection between love, craftsmanship, and legacy.
 
 Tagline: Love Becomes Legacy.
+

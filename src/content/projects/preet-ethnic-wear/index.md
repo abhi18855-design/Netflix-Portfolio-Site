@@ -1,5 +1,7 @@
 ---
 {
+  "selectedWork": false,
+  "selectedWorkOrder": 8,
   "title": "Preet Ethnic Wear | AI Brand Film",
   "slug": "preet-ethnic-wear",
   "category": "design",
@@ -51,7 +53,7 @@
   "cover": "/media/projects/preet-ethnic-wear/thumbnail-9d530e61.webp",
   "coverAlt": "",
   "published": true,
-  "featured": true,
+  "featured": false,
   "demo": false,
   "deleted": false,
   "order": 4
@@ -62,3 +64,4 @@ An AI-powered brand film for PREET Ethnic Wear, celebrating the richness of Indi
 Heritage. Collections. Culture. Worn Forward.
 
 Tagline: Culture Worn Forward.
+

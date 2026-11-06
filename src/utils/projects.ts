@@ -1,4 +1,5 @@
 import { getCollection } from 'astro:content';
+import { compareSelected } from '../../public/editor/projects.js';
 import { site } from './settings';
 export async function library() {
   const [all, categories] = await Promise.all([getCollection('projects'), getCollection('categories')]);
@@ -11,9 +12,9 @@ export async function library() {
   for (const project of all) {
     if (slugs.has(project.data.slug)) throw new Error(`Duplicate project slug: ${project.data.slug}`);
     slugs.add(project.data.slug);
-    if (!categorySlugs.has(project.data.category)) throw new Error(`Project ${project.data.title} references missing category ${project.data.category}. Reassign it before removing a category.`);
+    // Missing/deleted categories are optional and must never block project publishing.
   }
   // A deleted or unpublished featured project falls back to the next published work.
   const projects = all.filter(p=>p.data.published && !p.data.deleted).sort((a,b)=>a.data.order-b.data.order || b.data.year-a.data.year || a.data.title.localeCompare(b.data.title));
-  return {projects, categories:categories.sort((a,b)=>a.data.order-b.data.order), featured:projects.find(p=>p.data.slug===site.featuredProject) || projects.find(p=>p.data.featured) || projects[0]};
+  return {projects, selectedWork:projects.filter(p=>p.data.selectedWork).sort((a,b)=>compareSelected(a.data,b.data)), categories:categories.filter(c=>!c.data.deleted).sort((a,b)=>a.data.order-b.data.order), featured:projects.find(p=>p.data.slug===site.featuredProject) || projects.find(p=>p.data.featured) || projects[0]};
 }

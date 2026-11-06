@@ -1,5 +1,7 @@
 ---
 {
+  "selectedWork": true,
+  "selectedWorkOrder": 6,
   "title": "Majesty Luxury Perfume | AI Brand Ad",
   "slug": "majesty-luxury-perfume",
   "category": "design",
@@ -20,10 +22,10 @@
   "cover": "/media/projects/majesty-luxury-perfume/thumbnail-ace769cf.png",
   "coverAlt": "",
   "published": true,
-  "featured": false,
+  "featured": true,
   "demo": false,
   "deleted": false,
-  "order": 5
+  "order": 3
 }
 ---
 This Majesty perfume ad was an opportunity to explore luxury through visuals and storytelling. I wanted to give the fragrance a royal, sophisticated feel, bringing together cinematic shots, detailed product visuals, dramatic lighting and a rich atmosphere.
