@@ -1,7 +1,7 @@
 ---
 {
   "selectedWork": true,
-  "selectedWorkOrder": 5,
+  "selectedWorkOrder": 6,
   "title": "Majesty Luxury Perfume | AI Brand Ad",
   "slug": "majesty-luxury-perfume",
   "category": "",
